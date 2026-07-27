@@ -1,7 +1,23 @@
 aid: glambot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glambot.png
 name: Glambot
-description: Glambot is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Glambot is an online marketplace for buying and selling gently used and new makeup and
+  beauty products. Shoppers can purchase discounted cosmetics from more than 100 brands including MAC,
+  Urban Decay, Charlotte Tilbury, and Chanel across categories such as eyes, lashes, brows, face, cheeks,
+  lips, skincare, palettes, and brushes, while sellers can mail in their unwanted makeup for cash payouts.
+  Glambot operates a two-sided consumer resale platform and was surfaced as a portfolio company of 500
+  Global. The company does not currently publish a public API, SDK, developer portal, or MCP surface.
 url: https://raw.githubusercontent.com/api-evangelist/glambot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Cosmetics
+- Makeup
+- Marketplace
+- Ecommerce
+- Resale
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://glambot.com
+  url: https://www.glambot.com
+- type: Support
+  url: https://www.glambot.com/help
+- type: Blog
+  url: https://blog.glambot.com
+- type: TermsOfService
+  url: https://www.glambot.com/terms
+- type: PrivacyPolicy
+  url: https://www.glambot.com/privacy-policy
+- type: SignUp
+  url: https://www.glambot.com/register
+- type: Login
+  url: https://www.glambot.com/login
+- type: DomainSecurity
+  url: security/glambot-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

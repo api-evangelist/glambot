@@ -1,0 +1,14 @@
+{
+  "repo": "glambot",
+  "feeds": [
+    {
+      "source": "https://www.glambot.com/help",
+      "feed_url": "https://www.glambot.com/help",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
